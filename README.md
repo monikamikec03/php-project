@@ -17,4 +17,9 @@ v3-signin - Forma za prijavu
   Koristit ćemo za brisanje sjednice unset() ili session_destroy() 
   *unset() destroys the specified variables. 
   *session_destroy() destroys all of the data associated with the current session.
+  
+v4-admin-user
+  Kada se korisnik ulogira može pregledati sve korisnike u bazi, te provjeriti sve njegove podatke osim lozinke.
+  Napraviti podmeni koji će biti u administraciji za uređivanje korisnika (CRUD), vijesti (CRUD), kategorija (CRUD)
+
 
