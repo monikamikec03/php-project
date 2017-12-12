@@ -17,6 +17,10 @@
 	
 	if (!isset($menu)) { $menu = 1; }
 	if (!isset($action)) { $action = 1; }
+	
+	# Classes & Functions
+    include_once("functions.php");
+	
 print '
 <!DOCTYPE html>
 <html>
