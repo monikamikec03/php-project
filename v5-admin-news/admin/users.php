@@ -75,7 +75,7 @@
 			<label for="email">Your E-mail *</label>
 			<input type="email" id="email" name="email"  value="' . $row['email'] . '" placeholder="Your e-mail.." required>
 			
-			<label for="username">Username * <small>(Username must have min 5 and max 10 char)</small></label>
+			<label for="username">Username *<small>(Username must have min 5 and max 10 char)</small></label>
 			<input type="text" id="username" name="username" value="' . $row['username'] . '" pattern=".{5,10}" placeholder="Username.." required><br>
 			
 			<label for="country">Country</label>
@@ -150,4 +150,7 @@
 			</table>
 		</div>';
 	}
+	
+	# Close MySQL connection
+	@mysqli_close($MySQL);
 ?>
