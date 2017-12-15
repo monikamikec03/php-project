@@ -20,6 +20,26 @@ v3-signin - Forma za prijavu
   
 v4-admin-user
   Kada se korisnik ulogira može pregledati sve korisnike u bazi, te provjeriti sve njegove podatke osim lozinke.
-  Napraviti podmeni koji će biti u administraciji za uređivanje korisnika (CRUD), vijesti (CRUD), kategorija (CRUD)
+  Napraviti podmeni koji će biti u administraciji za uređivanje korisnika (CRUD).
+  
+v5-admin-news
+  Kada se korisnik ulogira može pregledati sve korisnike u bazi, te provjeriti sve njegove podatke osim lozinke.
+  Napraviti podmeni koji će biti u administraciji za uređivanje korisnika (CRUD), vijesti (CRUD), kategorija (CRUD).
+  
+  Napomena:
+  Probajte napasti sustav preko ovog URL-a: http://localhost/vjezbe/v5-admin-news/dbconn.php
+  
+  Što će se dogoditi ako upišete direktno URL, a niste prijavljeni: http://localhost/vjezbe/v5-admin-news/index.php?menu=6
+  
+  Kada želimo napraviti upload slike: Problem sa imenom slike? Kako odrediti ime slike?
+  
+  Kada brišemo članak moramo obrisati i sliku koja je vezana za taj članak!
+  
+  Kako se zaštititi od unosa HTML oznaka, odnosno da nam korisnik ne napravi SQL injection?
+  htmlspecialchars — Convert special characters to HTML entities http://php.net/manual/en/function.htmlspecialchars.php
+  
+NEWS kategorija . prikazati sve vijesti iz baze koje nisu arhivirane
+  Kada se klikne na "more" prikazati sav tekst koji je vezan uz ovu vijest.
+  
 
 
