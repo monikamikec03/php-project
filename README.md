@@ -1,5 +1,7 @@
 # php-project
 
+PRIMJER PHP PROJEKTA!! 
+
 v1-register - Registracijska forma
   Registracija korisnika preko forme i zapis podataka u bazu. Kod registracije korisnika koristimo HASH PASSWORD kako bi 
   zaštitili lozinku korisnika.
